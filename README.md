@@ -2,6 +2,8 @@
 
 > Secure Integration Layer for Legacy Core Banking Systems
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/legacybridge-ai-gateway?style=social)](https://github.com/yksanjo/legacybridge-ai-gateway/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/legacybridge-ai-gateway.svg)](https://github.com/yksanjo/legacybridge-ai-gateway/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/legacybridge-ai-gateway.svg)](https://github.com/yksanjo/legacybridge-ai-gateway/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/legacybridge-ai-gateway.svg)](https://github.com/yksanjo/legacybridge-ai-gateway/commits/main)
+
 ## What This Is
 
 LegacyBridge is an open-source gateway that lets you safely connect AI agents to legacy core banking systems (the old mainframe systems that many banks still run on). It acts as a protective layer, preventing AI agents from accidentally breaking or corrupting these critical systems.

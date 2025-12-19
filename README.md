@@ -1,63 +1,67 @@
 # LegacyBridge AI Gateway
 
-> Secure Integration Layer for Legacy Core Banking
+> Secure Integration Layer for Legacy Core Banking Systems
 
-[![License](https://img.shields.io/badge/license-Proprietary-blue.svg)](LICENSE)
-[![Documentation](https://img.shields.io/badge/docs-complete-brightgreen.svg)](product-specification.md)
+## What This Is
 
-## 🎯 Overview
+LegacyBridge is an open-source gateway that lets you safely connect AI agents to legacy core banking systems (the old mainframe systems that many banks still run on). It acts as a protective layer, preventing AI agents from accidentally breaking or corrupting these critical systems.
 
-LegacyBridge AI Gateway is part of the **Agentic AI Security Suite for Financial Institutions** - a comprehensive platform designed to prevent agentic AI financial disruption in 2026.
+## The Current Landscape
 
-## 📚 Documentation
+Here's the reality: most banks still run on core banking systems from the 1980s and 1990s. These systems weren't designed for AI agents - they were built for batch processing and human operators. Replacing them costs hundreds of millions and takes years.
 
-- **[Product Specification](product-specification.md)** - Complete product documentation
-- **[Suite Overview](../README_FINANCIAL_INSTITUTIONS.md)** - Full suite documentation for G-SIBs
-- **[Quick Reference](../QUICK_REFERENCE_G-SIBs.md)** - Executive summary
+But banks need to innovate. They want to deploy AI agents for customer service, automation, and new features. The problem is: connecting modern AI agents directly to legacy systems is risky. One bad API call could corrupt data, crash the system, or break integrations.
 
-## 🏦 Target Institutions
+We're in this awkward middle ground where banks need AI innovation, but they can't afford to replace their core systems. LegacyBridge is our attempt to bridge that gap safely.
 
-This product is designed for **Global Systemically Important Banks (G-SIBs)**:
+## Why We Built This
 
-- JPMorgan Chase & Co.
-- Morgan Stanley
-- Bank of America
-- Citigroup Inc.
-- Goldman Sachs
-- Wells Fargo
-- U.S. Bancorp
-- Other G-SIBs globally
+We built LegacyBridge because we saw banks stuck between two bad options: either don't innovate (and fall behind) or take huge risks connecting AI to legacy systems. There should be a third option: innovate safely.
 
-## 🚀 Quick Start
+By open-sourcing this:
+- **Banks can modernize gradually** - Without risking their core systems
+- **The community can improve it** - More integrations means better compatibility
+- **Smaller institutions can benefit** - Not everyone can build custom gateways
+- **Knowledge gets shared** - We can all learn from each other's integration challenges
 
-1. **Review** the [Product Specification](product-specification.md)
-2. **Schedule** an executive briefing
-3. **Request** a technical assessment
-4. **Begin** proof-of-concept discussion
+This is about making legacy systems safer for the AI era, not replacing them.
 
-## 💰 Pricing
+## What LegacyBridge Does
 
-### Starter Edition
-Starting at $75K-200K/year depending on product
+LegacyBridge sits between your AI agents and legacy core banking systems. It:
+- Validates all requests before they reach the legacy system
+- Enforces rate limits (so agents don't overload old systems)
+- Provides transaction reversibility (so you can undo mistakes)
+- Offers read-only mode (for safe testing)
+- Creates backups automatically
+- Provides a sandbox for testing
 
-### Professional Edition
-Starting at $250K-600K/year
+It translates between modern APIs (that AI agents understand) and legacy protocols (that old systems speak). Think of it as a translator and bodyguard for your legacy systems.
 
-### Enterprise Edition
-$750K-3M/year (custom pricing for G-SIBs)
+## Who This Is For
 
-### PE Portfolio License
-Custom pricing for portfolio-wide deployment
+This is for:
+- **Developers** building AI features that need to interact with legacy systems
+- **IT teams** managing legacy core banking platforms
+- **Organizations** trying to modernize without replacing everything
+- **Anyone** dealing with the challenge of connecting new tech to old systems
 
-## 📋 Features
+## Current Status
 
-See [Product Specification](product-specification.md) for complete feature list.
+This is an open-source project in active development. We're building this in public because we believe legacy systems need better protection in the AI era.
 
-## 🔗 Related Products
+## Getting Started
 
-This product is part of a 10-product suite:
+1. Check out the [product specification](product-specification.md) for detailed technical information
+2. Review the [Cursor AI prompts](CURSOR_AI_PROMPTS_COMPLETE.md) if you want to build your own version
+3. Read the [executive brief](EXECUTIVE_BRIEF.md) for a high-level overview
+4. Contribute, fork, or use this however it helps you
 
-1. [AgentGuard](../agentguard) - Unified AI Agent Security
+## Related Projects
+
+This is part of a suite of 10 open-source tools for AI agent security in finance:
+
+1. [AgentGuard](../agentguard) - Unified AI Agent Security & Governance
 2. [CodeShield AI](../codeshield-ai) - Secure Development Gateway
 3. [PaymentSentinel](../paymentsentinel) - Real-Time Transaction Defense
 4. [LegacyBridge](../legacybridge-ai-gateway) - Legacy Core Protection
@@ -68,16 +72,25 @@ This product is part of a 10-product suite:
 9. [SupplyChainGuard](../supplychainguard) - Development Tool Security
 10. [ComplianceIQ](../complianceiq) - Regulatory Reporting
 
-## 📞 Contact
+## Contributing
 
-- **Enterprise Sales**: [Contact Information]
-- **Technical Assessment**: [Contact Information]
-- **Regulatory Advisory**: [Contact Information]
+We welcome contributions! Whether it's:
+- Bug reports
+- Feature suggestions
+- Code improvements
+- Documentation fixes
+- New legacy system integrations
 
-## 📄 License
+Everything helps make these tools better for everyone.
 
-Proprietary - Enterprise License Required
+## License
+
+MIT License - Use it however you want.
+
+## Disclaimer
+
+This is open-source software provided as-is. Use at your own risk. We're not responsible for any losses or damages. This is a community project, not a commercial product.
 
 ---
 
-**Part of the Agentic AI Security Suite - Purpose-Built for G-SIBs**
+**Built with the hope that open collaboration can make legacy systems safer for the AI era.**

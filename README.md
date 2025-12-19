@@ -58,6 +58,24 @@ It translates between modern APIs (that AI agents understand) and legacy protoco
 **Positioning**: 
 > "IBM quoted $3M for mainframe modernization. We deliver AI integration for $300K in 90 days, without touching your core system."
 
+> "IBM's business model requires you to replace everything. Ours works with what you have."
+
+### vs. AWS Mainframe Migration / Azure Mainframe Modernization
+
+**What They Do**: Lift-and-shift migrations, cloud modernization, full system replacement.
+
+**What We Do**: Non-disruptive bridge, keep your mainframe, add AI capabilities.
+
+**Our Advantage**:
+- **Non-Disruptive**: Bridge, don't replace (they want to rip & replace)
+- **AI-Powered Translation**: Natural language to COBOL (they use manual coding)
+- **Fast & Cheap**: 90 days, $300K vs. 2 years, $5M+
+- **Low Risk**: Mainframe stays untouched
+
+**The Reality**: Cloud vendors want you to migrate everything. Most banks will NEVER fully migrate. They need a bridge.
+
+**Key Insight**: Most banks will NEVER fully migrate. They need a bridge.
+
 ### vs. API Management Platforms (MuleSoft, Apigee)
 
 **What They Do**: Generic API gateways for any system, enterprise integration platforms.
@@ -94,8 +112,34 @@ This is for:
 - **IT teams** managing legacy core banking platforms
 - **Organizations** trying to modernize without replacing everything
 - **Mid-market banks** who can't afford $5M+ replacement projects
+- **Regional banks** with mainframes who can't afford/risk full modernization
 - **Credit unions** with legacy cores and limited budgets
 - **Anyone** dealing with the challenge of connecting new tech to old systems
+
+## Target Segments
+
+### Banks with Mainframes Who Can't Afford Full Migration
+**Why We Fit**: Most banks will NEVER fully migrate. They need a bridge, not a replacement.
+
+**Positioning**: "IBM's business model requires you to replace everything. Ours works with what you have."
+
+### Regional Banks
+**Why We Fit**: Can't afford $5M+ modernization projects, but need to innovate.
+
+**Positioning**: "Modernize without replacing. Bridge your legacy systems to AI in 90 days."
+
+### Credit Unions
+**Why We Fit**: Small budgets, legacy cores, need safe modernization path.
+
+**Positioning**: "Built for credit unions. Safe, affordable legacy system integration."
+
+## Our Competitive Advantages
+
+1. **Non-Disruptive**: Bridge, don't replace - zero risk to your core system
+2. **Speed**: 90 days vs. 2 years for full modernization
+3. **Cost**: 1/10th the price of enterprise modernization projects
+4. **AI-Powered**: Natural language to COBOL translation, not manual coding
+5. **Pre-Built**: Ready-to-use connectors for major core systems
 
 ## Current Status
 

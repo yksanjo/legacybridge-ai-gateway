@@ -38,12 +38,63 @@ LegacyBridge sits between your AI agents and legacy core banking systems. It:
 
 It translates between modern APIs (that AI agents understand) and legacy protocols (that old systems speak). Think of it as a translator and bodyguard for your legacy systems.
 
+## How We're Different
+
+### vs. IBM Modernization Services / Oracle Consulting
+
+**What They Do**: $5M+ projects to replace legacy systems, 18-24 month timelines, risky rewrites.
+
+**What We Do**: AI-powered bridge that makes legacy systems work with AI agents, 90-day deployment, zero risk.
+
+**Our Advantage**:
+- **Don't Replace, Bridge**: We make what you have work, we don't force you to replace it
+- **1/10th the Cost**: $300K vs. $3M+ for IBM
+- **10x Faster**: Deploy in 90 days, not 2 years
+- **Zero Risk**: Your legacy system stays untouched, we just add a protective layer
+- **Pre-Built Connectors**: FIS, Fiserv, Jack Henry, Temenos - ready to go
+
+**The Reality**: IBM wants you to replace your mainframe. We want you to keep it and make it work with AI. Different philosophies.
+
+**Positioning**: 
+> "IBM quoted $3M for mainframe modernization. We deliver AI integration for $300K in 90 days, without touching your core system."
+
+### vs. API Management Platforms (MuleSoft, Apigee)
+
+**What They Do**: Generic API gateways for any system, enterprise integration platforms.
+
+**What We Do**: Purpose-built for legacy core banking with banking-specific features.
+
+**Our Advantage**:
+- **Legacy Core Expertise**: We understand FIS, Fiserv, Jack Henry protocols (they're generic)
+- **Transaction Reversibility**: Banking-specific feature they don't have
+- **Read-Only Mode**: Critical for legacy systems (they don't offer this)
+- **Sandbox Testing**: Safe testing environment for legacy cores
+- **Lower Complexity**: Focused solution, not a platform you need to configure for months
+
+**The Reality**: MuleSoft is great for general API management. But when you need to safely connect AI to a 30-year-old mainframe, you need specialized tools.
+
+### vs. Build-It-Yourself
+
+**What They Do**: Internal teams building custom integration layers.
+
+**What We Do**: Open-source, pre-built legacy core connectors, community-maintained.
+
+**Our Advantage**:
+- **Save 12-18 Months**: Don't reverse-engineer legacy protocols
+- **Proven Connectors**: Battle-tested integrations, not experimental
+- **Always Updated**: Legacy core updates? We handle compatibility
+- **Cost**: Free vs. $500K+ internal development
+
+**The Reality**: Legacy core protocols are complex and poorly documented. We've already figured them out.
+
 ## Who This Is For
 
 This is for:
 - **Developers** building AI features that need to interact with legacy systems
 - **IT teams** managing legacy core banking platforms
 - **Organizations** trying to modernize without replacing everything
+- **Mid-market banks** who can't afford $5M+ replacement projects
+- **Credit unions** with legacy cores and limited budgets
 - **Anyone** dealing with the challenge of connecting new tech to old systems
 
 ## Current Status

@@ -1,73 +1,82 @@
-# 🌉 LegacyBridge - AI-Powered Mainframe Integration
+# legacybridge-ai-gateway
 
-> Don't rewrite your mainframe—bridge it. Modern APIs for legacy systems using AI translation.
+## Detailed Description
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js 20+](https://img.shields.io/badge/node-20+-green.svg)](https://nodejs.org/)
-[![Status: Alpha](https://img.shields.io/badge/status-alpha-orange.svg)]()
+legacybridge-ai-gateway is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-## 🎯 Problem
+## Problem Statement
 
-Legacy systems block digital transformation:
-- Mainframe rewrite costs $5M+, takes 2 years
-- COBOL talent shortage
-- Modern apps can't integrate
-- Business-critical systems untouchable
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## 💡 Solution
+## Solution Overview
 
-LegacyBridge uses AI to translate:
-- **Natural language → COBOL** transactions
-- **REST API → Mainframe** calls
-- **JSON → Fixed-width** files
-- **Modern → Legacy** protocol translation
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-## ⚡ Quick Start
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-git clone https://github.com/yksanjo/legacybridge-ai-gateway.git
-cd legacybridge-ai-gateway
-npm install
-npm run dev
+make test
+make lint
 ```
 
-## 🤖 AI Translation Examples
+## Usage
 
-Input: `"Get all active customers in New York"`
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-Output:
-```cobol
-EXEC CICS READ DATASET('CUSTMAST') 
-     INTO(:customer-record) 
-     WHERE status = 'A' AND state = 'NY'
-```
+## Quality Standards
 
-## 💰 ROI
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-- **$5M saved** vs. full rewrite
-- **90 days** to deploy (vs. 2 years)
-- **Zero risk** - Mainframe untouched
-- **10,000 req/sec** with <200ms latency
+## Security
 
-## 📊 Tech Stack
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-- **Backend**: Node.js 20+, TypeScript
-- **AI**: OpenAI/Anthropic for translation
-- **Cache**: Redis 7+
-- **Queue**: RabbitMQ
+## Contributing
 
-## 🎯 Supported Systems
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
 
-- IBM z/OS, CICS, IMS
-- AS/400 (IBM i)
-- SAP R/3, S/4HANA
-- Oracle E-Business Suite
-- COBOL, PL/I, RPG
+## Roadmap
 
-## 📄 License
+Track upcoming milestones, technical debt, and planned feature work.
 
-MIT License
+## Support
 
-## 💬 Contact
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
-yoshi@musicailab.com
+## License
+
+This project is released under the MIT License.
